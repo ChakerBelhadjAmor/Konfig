@@ -1,6 +1,6 @@
 # Konfig
 
-A dark-themed visual config generator for the Kitty terminal emulator. Built for beginners — beautiful, intuitive, and production-ready.
+A dark-themed visual config generator for the Kitty terminal emulator. Built for beginners.
 
 ## Setup
 
