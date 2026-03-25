@@ -72,3 +72,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 6. Create tab components under `components/configurator/` specific to the new terminal
 
 The dynamic route `[terminal]` already handles routing — just add the terminal ID and it will work.
+
+## License
+
+This project is licensed under the
+[GNU Affero General Public License v3.0](./LICENSE) with additional terms.
+
+**Additional Attribution Requirement:**
+Any project that uses, modifies, or is derived from Konfig must display
+the following notice in the footer of every page, with a working hyperlink:
+
+> Powered by Konfig — https://konfig-alpha.vercel.app/
+
+See the [LICENSE](./LICENSE) file for the full terms.
+
+© 2026 Konfig
