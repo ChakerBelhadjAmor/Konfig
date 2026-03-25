@@ -1,0 +1,25 @@
+import { Code2 } from "lucide-react";
+
+export default function Footer() {
+  return (
+    <footer className="py-12 px-6 border-t border-[#2a2a2a]">
+      <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex items-center gap-2">
+          <span className="text-[#00ff9f] font-bold text-lg font-mono">
+            Konfig
+          </span>
+          <span className="text-[#888888] text-sm">
+            — open source terminal config builder
+          </span>
+        </div>
+        <a
+          href="#"
+          className="flex items-center gap-2 text-[#888888] hover:text-[#e5e5e5] transition-colors text-sm"
+        >
+          <Code2 size={16} />
+          GitHub
+        </a>
+      </div>
+    </footer>
+  );
+}
