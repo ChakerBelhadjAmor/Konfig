@@ -9,7 +9,7 @@ export default function Footer() {
             Konfig
           </span>
           <span className="text-[#888888] text-sm">
-            — open source terminal config builder
+            — terminal config builder
           </span>
         </div>
         <a

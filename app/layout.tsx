@@ -37,7 +37,7 @@ export default function RootLayout({
       className={`${dmSans.variable} ${jetbrainsMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-[#0d0d0d] text-[#e5e5e5]">
+<body className="min-h-full flex flex-col bg-[#0d0d0d] text-[#e5e5e5]">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

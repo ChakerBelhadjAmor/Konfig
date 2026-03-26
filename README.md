@@ -51,13 +51,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Tech Stack
 
-- **Next.js 16** with App Router
-- **TypeScript**
-- **Tailwind CSS v4**
-- **shadcn/ui** (base-nova style)
-- **Zustand** for state management with localStorage persistence
-- **next-themes** for dark mode
-- **file-saver** for config download
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logoColor=white)
+![next-themes](https://img.shields.io/badge/next--themes-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![file-saver](https://img.shields.io/badge/file--saver-2EA44F?style=for-the-badge&logoColor=white)
 
 ## Adding a New Terminal
 
@@ -73,17 +73,16 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 The dynamic route `[terminal]` already handles routing — just add the terminal ID and it will work.
 
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
 ## License
 
-This project is licensed under the
-[GNU Affero General Public License v3.0](./LICENSE) with additional terms.
-
-**Additional Attribution Requirement:**
-Any project that uses, modifies, or is derived from Konfig must display
-the following notice in the footer of every page, with a working hyperlink:
-
-> Powered by Konfig — https://konfig-alpha.vercel.app/
+This project is source-available under a custom license.
+You may view and study the code, submit pull requests, and run it locally for personal use.
+You may **not** redistribute, fork publicly, or deploy it as a service without explicit written permission.
 
 See the [LICENSE](./LICENSE) file for the full terms.
 
-© 2026 Konfig
+© 2026 Konfig — Chaker Belhadj Amor

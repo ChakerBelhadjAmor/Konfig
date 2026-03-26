@@ -21,8 +21,8 @@ export const ANSI_COLOR_LABELS: Record<string, string> = {
 
 export const FONT_OPTIONS = [
   "JetBrains Mono",
-  "FiraCode",
-  "Hack",
+  "Fira Code",
+  "Roboto Mono",
   "Cascadia Code",
   "Inconsolata",
   "Source Code Pro",

@@ -88,15 +88,14 @@ export default function TerminalPreview() {
         style={{
           backgroundColor: hexToRgba(bgColor, opacity),
           padding: `${padding}px`,
-          fontFamily: `"${font.font_family}", "JetBrains Mono", monospace`,
+          fontFamily: `"${font.font_family}", monospace`,
           fontSize: `${font.font_size}px`,
-          lineHeight: font.adjust_line_height,
           letterSpacing: font.adjust_column_width ? `${font.adjust_column_width}px` : undefined,
           color: fgColor,
           minHeight: "260px",
         }}
       >
-        <pre className="whitespace-pre-wrap text-[0.85em] leading-relaxed">
+        <pre className="whitespace-pre-wrap text-[0.85em]" style={{ fontFamily: "inherit", lineHeight: font.adjust_line_height }}>
           <span style={{ color: colors.color2 }}>user@hostname</span>
           <span style={{ color: fgColor }}> </span>
           <span style={{ color: colors.color3 }}>~</span>

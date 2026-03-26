@@ -9,6 +9,17 @@ export default function Hero() {
     <section className="relative flex flex-col items-center justify-center min-h-[85vh] px-6 text-center">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,255,159,0.05)_0%,transparent_70%)]" />
       <div className="relative z-10 max-w-3xl mx-auto">
+        <p
+          className="text-4xl md:text-5xl font-bold font-mono mb-4 tracking-widest"
+          style={{
+            background: "linear-gradient(to right, rgba(229, 229, 229, 0.75) 0%, rgba(229, 229, 229, 0.75) 40%, rgba(0, 255, 159, 0.75) 69%, rgba(0, 255, 159, 0.75) 100%)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+          }}
+        >
+          Konfig
+        </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
           Terminal configs,{" "}
           <span className="text-[#00ff9f]">made simple.</span>
